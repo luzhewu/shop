@@ -3,6 +3,9 @@
     <wb-module deploy-name="ShopSystem Maven Webapp">
         <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <property name="context-root" value="/ShopSystem"/>
         <property name="java-output-path" value="/ShopSystem Maven Webapp/src/main/webapp/WEB-INF/classes"/>
     </wb-module>
